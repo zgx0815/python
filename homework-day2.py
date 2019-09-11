@@ -86,7 +86,7 @@ if month in list1:
 elif month in list2:
     print('%d年%d月份有30天'%(year,month))
 else:
-    if year % 400 == 0:
+    if year % 400 == 0 and year % 4 ==0:
         print('%d年%d月份有29天'%(year,month))
     else:
         print('%d年%d月份有28天'%(year,month))
